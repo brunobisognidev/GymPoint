@@ -1,0 +1,21 @@
+{
+  "name": "GymPoint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/brunobisognidev/GymPoint.git",
+  "author": "Bruno De A. Bisogni <bruno@levoo.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "dev:debug": "nodemon --inspect src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sequelize-cli": "^5.5.1",
+    "sucrase": "^3.11.0"
+  }
+}
